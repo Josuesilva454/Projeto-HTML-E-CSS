@@ -1,0 +1,107 @@
+
+
+:root{
+    --vermelho: #E50914
+    preta#222
+}
+body{
+
+    margin: 0px; 
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+li{
+    display: inline-block;
+    padding-right: 5vw
+
+}
+   
+    
+
+header .container{
+    display: flex;
+    flex-direction: ROW;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+
+}
+
+style
+{ 
+
+   margin: 0;
+   padding: 0;
+
+}
+selection{
+    width: 780px;
+    height: auto;
+    margin: 100px auto;
+}
+
+#galeria img{
+    float: left;
+    width: 250px;
+    padding: 5px;
+    transition: all .4s;
+}
+ section label{
+    width: 175px;
+    padding: 20px 10px;
+    display: block;
+    background-color: #000;
+    color:#fff;
+    font-family: 'Arial';
+    text-align: center;
+    cursor: pointer;
+}
+input:checked + label{
+    background-color: dimgray;
+}
+input{
+    display: none;
+}
+#bt_tecnologia:checked ~ #TODOS .CARROS,
+#bt_carros:checked ~ #TODOS .MOTOS{
+    opacity: 4;
+    transform: scale(0.5);
+}
+#bt_carros:checked ~ #MOTOS .TODOS,
+#bt_carros:checked ~ #TODOS .MOTOS{
+    opacity: 4;
+    transform: scale(0.5);
+    
+
+
+}
+
+
+
+
